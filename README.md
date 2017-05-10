@@ -1,5 +1,5 @@
 # Android Style Code
-----
+
 ## Project structure
 
 Package by features and not by layers, Android is already an MVC project on a global structure because it has the Views layer (layouts), Controllers (Activities, Fragments) and Models (all extra Java code). 
@@ -7,7 +7,7 @@ Package by features and not by layers, Android is already an MVC project on a gl
 So splitting package by layers inside the Java module, it becomes redundant, a better way to package an Android Java module is by features. If the code is divided by features or modules it becomes more readable for developers and can be more efficient to find the Classes, Objects or Components that interacts with some process.
 
 ## Naming
----
+
 In order to have a unified code, the Android components must have their own name convention; all the names must be descriptive.
 
 ### Resources
@@ -70,7 +70,7 @@ Android do not allow creating sub directories to split the assets or drawable co
 In case the asset is not defined by its type, it can be prefixed by its function (E.g. `card_backgorund`, `circle_white`, `square_black_rounded`, etc.).
 
 ## Java
-----
+
 
 As the Android uses the Java Code language, the [Google Java Style Guide](https://google.github.io/styleguide/javaguide.html) is the main reference for code style.
 
