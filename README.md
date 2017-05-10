@@ -8,7 +8,7 @@
   
       i [Layout files](#layout-files)
       
-     ii [Resources Ids](#resouces-ids)
+     ii [Resources Ids](#resources-ids)
      
   4. [Drawables](#drawable-files)
   5. [Java](#java)
