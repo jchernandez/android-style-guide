@@ -1,5 +1,23 @@
 # Android Style Code
 
+## Index
+
+1. [Project structure](#project-structure)
+2. [Naming](#naming)
+3. [Resources](#resources)
+	3.1. [Layout files](#layout-files)
+    3.2. [Resources Ids](#resouces-ids)
+4. [Drawables](#drawable-files)
+5. [Java](#java)
+	5.1 [File Name](#file-name)
+    5.2 [Souce Files](#source-files)
+    5.3 [Package Name](#package-name)
+    5.4 [Classes Name](#classes-names)
+    5.5 [Method Names](#method-names)
+    5.6 [Constants Names](#constants-names)
+    
+6 [References](#references)
+
 ## Project structure
 
 Package by features and not by layers, Android is already an MVC project on a global structure because it has the Views layer (layouts), Controllers (Activities, Fragments) and Models (all extra Java code). 
@@ -16,7 +34,7 @@ In general use __namespaces__ to the name of all the resources.
 
 * Consider prefix with function, layout or section. E.g.: `error_404, field_name`, `confirmation_message`, etc.
 
-####	 Layout files
+#### Layout files
 
 The naming of layouts should be prefixed according to the table below:
 
@@ -29,9 +47,9 @@ The naming of layouts should be prefixed according to the table below:
 | Menu			| menu_			 |
 | View			| view_			 |
 | Header		| header_		 |
+.
 
-
-#### Resources IDS
+#### Resources Ids
 
 | Component			| Prefix		|
 | ----------------- |:-------------:|
